@@ -88,3 +88,8 @@ height:200px
 .ptext .border.trans{
   background-color: transparent;
 }
+
+.links {
+    text-decoration: none;
+    color: white;
+}
