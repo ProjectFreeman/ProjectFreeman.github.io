@@ -18,6 +18,13 @@ body, html{
   background-attachment:fixed;
 }
 
+.top-bottom {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
 .pimg1{
   background-image:url('../img/image2.jpg');
   min-height:100%;
