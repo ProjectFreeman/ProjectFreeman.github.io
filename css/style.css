@@ -90,17 +90,20 @@ height:200px
 }
 
 .img {
-    max-width: 30%;
+    max-width: 60%;
+    width: 30%;
     height: auto;
 }
 
 .img2 {
-    max-width: 25%;
+    max-width: 50%;
+    width: 25%;
     height: auto;
 }
 
 .img3 {
-    max-width: 15%;
+    max-width: 30%;
+    width: 15%;
     height: auto;
 }
 
