@@ -67,6 +67,7 @@ height:200px;
         color: white;
     }
 .btn2 {
+    display: none;
     background-color: #667;
     position: fixed;
     bottom: 20px;
