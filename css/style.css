@@ -89,23 +89,41 @@ height:200px
   background-color: transparent;
 }
 
-.img {
-    max-width: 60%;
-    width: 30%;
-    height: auto;
+@media screen and (orientation:portrait) {
+    .img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .img2 {
+        max-width: 35%;
+        height: auto;
+    }
+
+    .img3 {
+        max-width: 25%;
+        height: auto;
+    }
 }
 
-.img2 {
-    max-width: 50%;
-    width: 25%;
-    height: auto;
-}
-
-.img3 {
+@media screen and (orientation: landscape) {
+    .img {
     max-width: 30%;
-    width: 15%;
     height: auto;
+    }
+
+    .img2 {
+    max-width: 25%;
+    height: auto;
+    }
+
+    .img3 {
+    max-width: 15%;
+    height: auto;
+    }
 }
+
+
 
 .links {
     text-decoration: none;
