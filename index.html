@@ -7,14 +7,20 @@
     <meta http-http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project Freeman</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="javascript/script.js"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
 </head>
 <body>
-    <div class="pimg1">
+    <div id="top" class="pimg1">
         <div class="ptext">
-            <img src="img\logo\logo game cropped.png" class="img">
+            <center><img src="img\logo\logo game cropped.png" class="img"></center>
+            <br>
+            <button onclick="go_to_about()" class="btn">About</button>
+            <button onclick="go_to_pf()" class="btn">Planned Features</button>
+            <button onclick="go_to_cu()" class="btn">Contact Us</button>
+            <button onclick="go_to_tt()" class="btn">The Team</button>
         </div>
     </div>
+
 
     <section class="section section-dark">
         <p>
@@ -23,7 +29,7 @@
         </p>
     </section>
 
-    <div class="pimg2">
+    <div id="about" class="pimg2">
         <div class="ptext">
             <span class="border trans">
                 About
@@ -40,7 +46,7 @@
         </p>
     </section>
 
-    <div class="pimg3">
+    <div id="pf" class="pimg3">
         <div class="ptext">
             <span class="border trans">
                 Planned Features
@@ -54,7 +60,7 @@
         </p>
     </section>
 
-    <div class="pimg5">
+    <div id="cu" class="pimg5">
         <div class="ptext">
             <span class="border trans">
                 Contact Us
@@ -68,12 +74,13 @@
         </p>
     </section>
 
-    <div class="pimg4">
+    <div id="tt" class="pimg4">
         <div class="ptext">
             <span class="border trans">
                 The Team
             </span>
         </div>
+        <button onclick="go_to_top()" class="btn2" id="btn">Top</button>
     </div>
 
     <section class="section section-dark">
@@ -100,7 +107,7 @@
         <h3>SPΛRT</h3>
         <br>
         <br>
-        <img src="img/logo/logo transparent.png" class="img2" >
+        <img src="img/logo/logo transparent.png" class="img2">
     </section>
 </body>
 </html>

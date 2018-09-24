@@ -40,9 +40,50 @@ body, html{
 }
 
 .logo{
-width:200px
-height:200px
+width:200px;
+height:200px;
 }
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    position: page;
+    top: 90%;
+    transform: translate(0%, 200%);
+    -ms-transform: translate(0%, 200%);
+    color: #ddd;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 4px 2px;
+    opacity: 1;
+}
+    .btn:hover {
+        background-color: #ffb10f;
+        color: white;
+    }
+.btn2 {
+    background-color: #667;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: -99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+    .btn2:hover {
+        background-color: #ffb10f;
+    }
 
 .section {
     text-align: center;
@@ -51,7 +92,7 @@ height:200px
 
 .section-light{
   background-color:#f4f4f4;
-  color:#666;
+  color:#667;
 }
 
 .section-dark{
