@@ -55,8 +55,8 @@ body, html{
     text-align: center;
     position: page;
     top: 90%;
-    transform: translate(0%, 0%);
-    -ms-transform: translate(0%, 0%);
+    /*transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);*/
     color: #ddd;
     font-size: 16px;
     padding: 12px 24px;
