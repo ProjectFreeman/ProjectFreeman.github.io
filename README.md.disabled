@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿i <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta name="theme-color" content="#ffb10f">
@@ -112,7 +112,7 @@
         <h3>wallmenis</h3>
     </section>
 
-    <div class="pimg5">
+    <div class="pimg3">
         <div class="top-bottom ">
             <span>
                 <button onclick="go_to_top()" class="btn2" id="btn">Top</button>
