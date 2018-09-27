@@ -1,13 +1,8 @@
-@font-face {
-    font-family: DIN;
-    src: url(fonts\DINRg.ttf);
-}
-
 body, html{
     height:100%;
     margin:0;
     font-size:100%;
-    font-family:"Segoe UI", Lato, sans-serif;
+    font-family:"Segoe U", Lato, sans-serif;
     font-weight:400;
     line-height:1.8em;
     color:#667;
@@ -23,33 +18,25 @@ body, html{
     background-attachment:fixed;
 }
 
-.top-bottom {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-}
-
 .pimg1{
     background-image:url('../img/image2.jpg');
-    min-height: 100%;
+    height: 100%;
 }
 .pimg2{
     background-image:url('../img/image1.jpg');
-    min-height: 50%
+    height: 50%
 }
 .pimg3 {
     background-image: url('../img/image3.jpg');
-    min-height: 50%;
+    height: 50%;
 }
 .pimg4 {
     background-image: url('../img/image2.jpg');
-    min-height: 50%;
+    height: 50%;
 }
 .pimg5 {
     background-image: url('../img/image1.jpg');
-    min-height: 50%;
+    height: 50%;
 }
 
 .btn {
@@ -100,13 +87,13 @@ body, html{
 }
 
 .section-light{
-    background-color:#f4f4f4;
-    color:#667;
+    background-color: #f4f4f4;
+    color: #667;
 }
 
 .section-dark{
-    background-color:#282e34;
-    color:#ddd;
+    background-color: #282e34;
+    color: #ddd;
 }
 
 .section-members {
@@ -115,24 +102,24 @@ body, html{
     top: 50%;
     width: 100%;
     letter-spacing: 8px;
-    font-size: 27px;
+    font-size: 175%;
 }
 
 .ptext{
-    position:absolute;
-    top:50%;
-    width:100%;
-    text-align:center;
-    color:#000;
-    font-size:175%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 175%;
     letter-spacing: 8px ; 
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .ptext .border{
-    background-color:#111;
-    color:#fff;
-    padding:2%;
+    background-color: #111;
+    color: #fff;
+    padding: 3%;
 }
 
 .ptext .border.trans{
@@ -141,6 +128,14 @@ body, html{
 
 @media screen and (orientation:portrait) {
     /* PHONE SETTINGS */
+    .top-bottom {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+
     .img {
         max-width: 60%;
         height: auto;
@@ -159,6 +154,14 @@ body, html{
 
 @media screen and (orientation: landscape) {
     /* DESKTOP SETTINGS */
+    .top-bottom {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+    }
+
     .img {
     max-width: 30%;
     height: auto;
