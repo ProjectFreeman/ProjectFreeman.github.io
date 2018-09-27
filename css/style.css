@@ -1,11 +1,11 @@
 body, html{
-  height:100%;
-  margin:0;
-  font-size:16px;
-  font-family:"Segoe UI", Lato, sans-serif;
-  font-weight:400;
-  line-height:1.8em;
-  color:#667;
+    height:100%;
+    margin:0;
+    font-size:100%;
+    font-family:"Segoe UI", Lato, sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#667;
 }
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
@@ -45,11 +45,6 @@ body, html{
 .pimg5 {
     background-image: url('../img/image1.jpg');
     min-height: 50%;
-}
-
-.logo{
-width:200px;
-height:200px;
 }
 
 .btn {
@@ -96,47 +91,47 @@ height:200px;
 
 .section {
     text-align: center;
-    padding: 50px 80px;
+    padding: 4% 5%;
 }
 
 .section-light{
-  background-color:#f4f4f4;
-  color:#667;
+    background-color:#f4f4f4;
+    color:#667;
 }
 
 .section-dark{
-  background-color:#282e34;
-  color:#ddd;
+    background-color:#282e34;
+    color:#ddd;
 }
 
-.section-members{
-  text-align:center;
-  padding:50px 80px;
-  top:50%;
-  width:100%;
-  letter-spacing:8px;
-  font-size:27px;
+.section-members {
+    text-align: center;
+    padding: 4% 5%;
+    top: 50%;
+    width: 100%;
+    letter-spacing: 8px;
+    font-size: 27px;
 }
 
 .ptext{
-  position:absolute;
-  top:50%;
-  width:100%;
-  text-align:center;
-  color:#000;
-  font-size:27px;
-  letter-spacing:8px;
-  text-transform:uppercase;
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
 }
 
 .ptext .border{
-  background-color:#111;
-  color:#fff;
-  padding:20px;
+    background-color:#111;
+    color:#fff;
+    padding:2%;
 }
 
 .ptext .border.trans{
-  background-color: transparent;
+    background-color: transparent;
 }
 
 @media screen and (orientation:portrait) {
@@ -176,8 +171,7 @@ height:200px;
 }
 
 
-
 .links {
     text-decoration: none;
-    color: white;
+    color: #ffb10f;
 }
