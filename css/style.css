@@ -8,15 +8,92 @@ body, html{
     color:#667;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
-    text-align:center;
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+    text-align: center;
     position: relative;
-    opacity:0.95;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+@media screen and (orientation:portrait) {
+    /* PHONE SETTINGS */
+
+    .ptext {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+        font-size: 175%;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+
+    .top-bottom {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img {
+        max-width: 60%;
+        height: auto;
+    }
+
+    .img2 {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .img3 {
+        max-width: 30%;
+        height: auto;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    /* DESKTOP SETTINGS */
+
+    .ptext {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+        font-size: 175%;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+
+    .top-bottom {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .img2 {
+        max-width: 25%;
+        height: auto;
+    }
+
+    .img3 {
+        max-width: 15%;
+        height: auto;
+    }
+}
+
 
 .pimg1{
     background-image:url('../img/image2.jpg');
@@ -105,79 +182,15 @@ body, html{
     font-size: 175%;
 }
 
-.ptext{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-    font-size: 175%;
-    letter-spacing: 8px ; 
-    text-transform: uppercase;
-}
-
 .ptext .border{
     background-color: #111;
     color: #fff;
     padding: 3%;
 }
 
-.ptext .border.trans{
+.ptext .border.trans {
     background-color: transparent;
 }
-
-@media screen and (orientation:portrait) {
-    /* PHONE SETTINGS */
-    .top-bottom {
-        text-align: center;
-        position: absolute;
-        top: 40%;
-        width: 100%;
-        text-align: center;
-    }
-
-    .img {
-        max-width: 60%;
-        height: auto;
-    }
-
-    .img2 {
-        max-width: 70%;
-        height: auto;
-    }
-
-    .img3 {
-        max-width: 30%;
-        height: auto;
-    }
-}
-
-@media screen and (orientation: landscape) {
-    /* DESKTOP SETTINGS */
-    .top-bottom {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-    }
-
-    .img {
-    max-width: 30%;
-    height: auto;
-    }
-
-    .img2 {
-    max-width: 25%;
-    height: auto;
-    }
-
-    .img3 {
-    max-width: 15%;
-    height: auto;
-    }
-}
-
 
 .links {
     text-decoration: none;
