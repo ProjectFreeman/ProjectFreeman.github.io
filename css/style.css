@@ -8,6 +8,27 @@ body, html{
     color:#667;
 }
 
+table {
+    width: 100%;
+}
+
+table, td, th {
+    height:auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.colu3 {
+    width: 33%;
+}
+.colu2 {
+    width: 50%;
+}
+.colu1 {
+    width: 100%;
+}
+
+
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
     text-align: center;
     position: relative;
@@ -41,17 +62,22 @@ body, html{
     }
 
     .img {
-        max-width: 60%;
+        max-width: 30%;
         height: auto;
     }
 
     .img2 {
-        max-width: 70%;
+        max-width: 50%;
         height: auto;
     }
 
     .img3 {
-        max-width: 30%;
+        max-width: 80%;
+        height: auto;
+    }
+
+    .img4 {
+        max-width: 90%;
         height: auto;
     }
 }
@@ -79,19 +105,24 @@ body, html{
     }
 
     .img {
-        max-width: 30%;
+        max-width: 10%;
         height: auto;
     }
 
     .img2 {
-        max-width: 25%;
+        max-width: 20%;
         height: auto;
     }
 
     .img3 {
-        max-width: 15%;
+        max-width: 30%;
         height: auto;
     }
+    .img4 {
+        max-width: 40%;
+        height: auto;
+    }
+
 }
 
 
