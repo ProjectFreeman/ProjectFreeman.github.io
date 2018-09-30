@@ -13,7 +13,7 @@
 <body>
     <div class="pimg1">
         <div class="top-bottom ">
-            <center><img src="img\logo\logo game cropped.png" class="img"></center>
+            <center><img src="img\logo\logo game cropped.png" class="img3"></center>
             <br>
             <button onclick="go_to_about()" class="btn">About</button>
             <button onclick="go_to_pf()" class="btn">Planned Features</button>
@@ -24,10 +24,10 @@
 
 
     <section class="section section-dark">
-        
-            Welcome. Welcome to Project Freeman's website. You have chosen, or been chosen, to relocate to one of our finest remaining websites. We have been proud to call Project Freeman our dream project.
-            Whether you are here to stay, or passing through on your way to parts unknown, welcome to Project Freeman's website. <br> <h3>It's safer here.</h3>
-        
+
+        Welcome. Welcome to Project Freeman's website. You have chosen, or been chosen, to relocate to one of our finest remaining websites. We have been proud to call Project Freeman our dream project.
+        Whether you are here to stay, or passing through on your way to parts unknown, welcome to Project Freeman's website. <br> <h3>It's safer here.</h3>
+
     </section>
 
     <div id="about" class="pimg2">
@@ -40,7 +40,7 @@
 
     <section class="section section-dark">
         <p>
-            There have been several remakes of Half-Life 2’s environments in Unreal, but that’s all they were; there were no gameplay aspects implemented. We decided that while those demos were cool, we wanted more. Instead of just paying homage to HL, we wanted to fully recreate it. Our goal is to keep it as vanilla feeling as possible, while still adding the extra immersion that modern game engines have to offer. <br>       We want to see Half-Life 2 the same way we saw it when it first came out: absolutely stunning.
+            There have been several remakes of Half-Life 2’s environments in Unreal, but that’s all they were; there were no gameplay aspects implemented. We decided that while those demos were cool, we wanted more. Instead of just paying homage to HL, we wanted to fully recreate it. Our goal is to keep it as vanilla feeling as possible, while still adding the extra immersion that modern game engines have to offer. <br>       We want to see Half-Life 2 the same way we saw it when it first came out: <h3>absolutely stunning.</h3>
         </p>
     </section>
 
@@ -74,6 +74,10 @@
             <a href="https://discord.gg/rMXwzqj" target="_blank" class="links">https://discord.gg/rMXwzqj</a> <br> <br> Feel free to ping one of the team members; just remember to be courteous, as we’re doing this on our own time with practically zero budget.
         </p>
     </section>
+    <!--
+        Since you opened the debuger... why dont you help me debug this page and add support for more browsers?
+        You can contact us with the links above if you have a discord account or send an email at sandboxgamergr@hotmail.com!
+    -->
 
     <div id="tt" class="pimg4">
         <div class="ptext">
@@ -84,32 +88,106 @@
     </div>
 
     <section class="section section-dark">
-        <h1>Project Leaders</h1>
-        <img src="img/icons/TIITAN.jpg" class="img2">
-        <h3>TIITAN</h3>
-        <img src="img/icons/Crazy.jpg" class="img2">
-        <h3>Crazy</h3>
-        <h1>Community Managers</h1> <br>
-        <img src="img/icons/Gee.jpg" class="img3"> <br>
-        <h3>Gee</h3>
-        <h1>Artists</h1>
-        <img src="img\icons\Tributon.jpg" class="img3">
-        <h3>Tributon</h3>
-        <h1>Level Designers</h1>
-        <img src="img/icons/quantumdrake.jpg" class="img3">
-        <h3>Quantum DRAKE</h3>
-        <img src="img/icons/Spart.jpg" class="img3">
-        <h3>SPΛRT</h3>
-        <img src="img/icons/trebla.jpg" class="img3">
-        <h3>Trebla</h3>
-        <h1>Programmers</h1>
-        <img src="img/icons/stryx.jpg" class="img3">
-        <h3>stryx</h3>
-        <h1>Generalists</h1>
-        <img src="img/icons/owhenky.jpg" class="img3">
-        <h3>owhenky</h3>
-        <img src="img/icons/wallmenis.jpg" class="img3">
-        <h3>wallmenis</h3>
+        <table>
+            <tr>
+                <th colspan="2"><h1>Project Leaders</h1>
+            </tr>
+            <tr>
+                <td class="colu2">
+                    <img src="img/icons/TIITAN.jpg" class="img4">
+                    <h3>TIITAN</h3>
+                </td>
+                <td class="colu2">
+                    <img src="img/icons/Crazy.jpg" class="img4">
+                    <h5>Self-taught aspiring 3D artist with a passion<br> for anything Half-Life/Portal related.</h5>
+                    <h3>Crazy</h3>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="1">
+                    <h1>Community Managers</h1>
+                </th>
+            <tr>
+                <td class="colu1">
+                    <img src="img/icons/Gee.jpg" class="img">
+                    <h3>Gee</h3>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="1"><h1>Artists</h1>
+            </tr>
+            <tr>
+                <td class="colu1">
+                    <img src="img\icons\Tributon.jpg" class="img">
+                    <h3>Tributon</h3>
+                <td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="1"><h1>Sound Artists</h1>
+            </tr>
+            <tr>
+                <td class="colu1">
+                    <img src="img/icons/purrspctiv.jpg" class="img">
+                    <h3>Purrspctiv</h3>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="3"><h1>Level Designers</h1>
+            </tr>
+            <tr>
+                <td class="colu3">
+                    <img src="img/icons/quantumdrake.jpg" class="img3">
+                    <h5>Little-big guy which makes models,<br> works on levels and also codes</h5>
+                    <h3>Quantum DRAKE</h3>
+                </td>
+                <td class="colu3">
+                    <img src="img/icons/Spart.jpg" class="img3">
+                    <h5>A random french guy who creates stuff.<br> Mainly focusing on level design.</h5>
+                    <h3>SPΛRT</h3>
+                </td>
+                <td class="colu3">
+                    <img src="img/icons/trebla.jpg" class="img3">
+                    <h3>Trebla</h3>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="1"><h1>Programmers</h1>
+            </tr>
+            <tr>
+                <td class="colu1">
+                    <img src="img/icons/stryx.jpg" class="img">
+                    <h3>stryx</h3>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="2"><h1>Generalists</h1>
+            </tr>
+            <tr>
+                <td class="colu2">
+                    <img src="img/icons/owhenky.jpg" class="img2">
+                    <h5>A guy that loves design and does concepts.<br>  He mainly makes the logos and the effects</h5>
+                    <h3>owhenky</h3>
+                </td>
+                <td>
+                    <img src="img/icons/wallmenis.jpg" class="img2">
+                    <h5>Young man that loves a game older than him.<br> He develops this page and makes the logos with owhenky.</h5>
+                    <h3>wallmenis</h3>
+                </td>
+            </tr>
+        </table>
+
     </section>
 
     <div class="pimg3">
@@ -119,7 +197,7 @@
                 <img src="img/logo/logo transparent.png" class="img2">
             </span>
         </div>
-        
+
     </div>
 
 </body>

@@ -171,7 +171,7 @@ table, td, th {
     }
 .btn2 {
     display: none;
-    background-color: #667;
+    background-color: #444;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -183,6 +183,7 @@ table, td, th {
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
+    transition: 0.3s;
 }
 
     .btn2:hover {
