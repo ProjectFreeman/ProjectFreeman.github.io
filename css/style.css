@@ -13,9 +13,13 @@ table {
 }
 
 table, td, th {
-    height:auto;
+    height: auto;
     text-align: center;
     border-collapse: collapse;
+}
+
+td, th {
+    vertical-align:text-top;
 }
 
 .colu3 {
