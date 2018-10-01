@@ -8,6 +8,10 @@ body, html{
     color: #667;
 }
 
+.profilename {
+    vertical-align: text-bottom;
+}
+
 table {
     width: 100%;
 }
