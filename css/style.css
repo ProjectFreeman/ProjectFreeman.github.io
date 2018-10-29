@@ -9,7 +9,7 @@ body, html{
 }
 
 p {
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 table {
@@ -17,11 +17,11 @@ table {
 }
 
 h3 {
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 table, td, th {
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     height: auto;
     text-align: center;
     border-collapse: collapse;
@@ -64,7 +64,6 @@ td, th {
         font-size: 175%;
         letter-spacing: 8px;
         text-transform: uppercase;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
     }
 
     .top-bottom {
@@ -77,28 +76,28 @@ td, th {
 
     .primg {
         border-radius: 50%;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 30%;
         height: auto;
     }
 
     .primg2 {
         border-radius: 50%;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 50%;
         height: auto;
     }
 
     .primg3 {
         border-radius: 50%;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 80%;
         height: auto;
     }
 
     .primg4 {
         border-radius: 50%;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 90%;
         height: auto;
     }
@@ -137,27 +136,27 @@ td, th {
 
     .primg {
         border-radius: 50%;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 10%;
         height: auto;
     }
 
     .primg2 {
         border-radius: 50%;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 20%;
         height: auto;
     }
 
     .primg3 {
         border-radius: 50%;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 30%;
         height: auto;
     }
     .primg4 {
         border-radius: 50%;
-        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 40%;
         height: auto;
     }
@@ -211,13 +210,13 @@ td, th {
     transition: 0.3s;
     margin: 4px 2px;
     opacity: 1;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
     .btn:hover {
         background-color: #ffb10f;
         color: white;
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
-        text-shadow: 0px 5px 5px rgba(0, 0, 0, 0);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0);
     }
 .btn2 {
     display: none;
@@ -234,13 +233,13 @@ td, th {
     border-radius: 10px;
     font-size: 18px;
     transition: 0.3s;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
     .btn2:hover {
         background-color: #ffb10f;
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
-        text-shadow: 0px 5px 5px rgba(0, 0, 0, 0);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0);
     }
 
 .section {
@@ -274,7 +273,7 @@ td, th {
 }
 
     .ptext .border.trans {
-        text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         background-color: transparent;
     }
 
