@@ -8,6 +8,19 @@ body, html{
     color: #667;
 }
 
+.flag {
+    position: absolute;
+    max-width: 30%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+
+.divflag {
+    position: relative;
+    display: inline;
+}
+
 p {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
