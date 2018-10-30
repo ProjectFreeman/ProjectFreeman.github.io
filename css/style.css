@@ -8,17 +8,18 @@ body, html{
     color: #667;
 }
 
+.divflag {
+    position: relative;
+    display: inline;
+}
+
+
 .flag {
     position: absolute;
     max-width: 30%;
     height: auto;
     bottom: 0;
     left: 0;
-}
-
-.divflag {
-    position: relative;
-    display: inline;
 }
 
 p {
@@ -68,6 +69,34 @@ td, th {
 @media screen and (orientation:portrait) {
     /* PHONE SETTINGS */
 
+    .toverlaytext {
+        color: white;
+        font-size: 70%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .toverlay {
+        position: absolute;
+        top: -150%;
+        left: 50%;
+        transform: translate(-100%, -100%);
+        font-size: 100%;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .divflag:hover .toverlay {
+        opacity: 1;
+    }
+
+
     .ptext {
         position: absolute;
         top: 40%;
@@ -92,6 +121,8 @@ td, th {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 30%;
         height: auto;
+        transition: 0.3s ease;
+        opacity: 1;
     }
 
     .primg2 {
@@ -99,6 +130,8 @@ td, th {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 50%;
         height: auto;
+        transition: 0.3s ease;
+        opacity: 1;
     }
 
     .primg3 {
@@ -106,6 +139,8 @@ td, th {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 80%;
         height: auto;
+        transition: 0.3s ease;
+        opacity: 1;
     }
 
     .primg4 {
@@ -113,6 +148,8 @@ td, th {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 90%;
         height: auto;
+        transition: 0.3s ease;
+        opacity: 1;
     }
     .img2 {
         max-width: 50%;
@@ -127,6 +164,34 @@ td, th {
 
 @media screen and (orientation: landscape) {
     /* DESKTOP SETTINGS */
+
+    .toverlaytext {
+        color: white;
+        font-size: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .toverlay {
+        position: absolute;
+        top: -300%;
+        left: 50%;
+        transform: translate(-100%, -100%);
+        font-size: 100%;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .divflag:hover .toverlay {
+        opacity: 1;
+    }
+
 
     .ptext {
         position: absolute;
@@ -152,6 +217,8 @@ td, th {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 10%;
         height: auto;
+        transition: 0.3s ease;
+        opacity: 1;
     }
 
     .primg2 {
@@ -159,6 +226,8 @@ td, th {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 20%;
         height: auto;
+        transition: 0.3s ease;
+        opacity: 1;
     }
 
     .primg3 {
@@ -166,12 +235,16 @@ td, th {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 30%;
         height: auto;
+        transition: 0.3s ease;
+        opacity: 1;
     }
     .primg4 {
         border-radius: 50%;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         max-width: 40%;
         height: auto;
+        transition: 0.3s ease;
+        opacity: 1;
     }
     .img2 {
         max-width: 20%;
@@ -185,8 +258,28 @@ td, th {
 }
 
 
-.pimg1{
-    background-image:url('../img/image2.jpg');
+.divflag:hover .primg {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
+    opacity: 0.5;
+}
+.divflag:hover .primg2 {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
+    opacity: 0.5;
+}
+
+.divflag:hover .primg3 {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
+    opacity: 0.5;
+}
+
+.divflag:hover .primg4 {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
+    opacity: 0.5;
+}
+
+
+.pimg1 {
+    background-image: url('../img/image2.jpg');
     height: 100%;
 }
 .pimg2{
